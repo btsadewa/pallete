@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "sac";
+  src: url("font/Sacramento-Regular.ttf");
+}
+
+@font-face {
+  font-family: "poppin";
+  src: url("font/Poppins-Regular.otf");
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.demo {
+  min-height: 100vh;
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* padding-bottom: 10px; */
+}
+.intro {
+  min-height: 65vh;
+  padding-top: 140px;
+}
+
+.ungu {
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.ijo {
+  background-image: linear-gradient(to right top, #e9efc0, #e1ecb7, #d8e9af, #cee7a7, #c4e4a0, #bbe09a, #b2dc94, #a8d88e, #9fd188, #96ca81, #8cc47b, #83bd75);
+}
+
+.biru {
+  background-image: linear-gradient(to right top, #e3fdfd, #defbfb, #daf9fa, #d5f6f8, #d1f4f7, #ccf2f5, #c7f0f4, #c2eef2, #bbebf0, #b4e9ed, #ade6eb, #a6e3e9);
+}
+
+.velvet {
+  background-image: linear-gradient(to right top, #f67280, #ec7182, #e26f84, #d86e85, #ce6d85, #c36b87, #b86987, #ac6787, #9c6487, #8b6185, #7b5e81, #6c5b7b);
+}
+
+.birutua {
+  background-image: linear-gradient(to right top, #3490de, #3782d8, #4073d0, #4c63c6, #5852ba, #5d47ae, #613ba1, #632f94, #602887, #5c207a, #57196e, #521262);
+}
+
+.kuning {
+  background-image: linear-gradient(to right top, #efd345, #e5cf44, #dbcb43, #d1c742, #c7c342, #bdbe43, #b4b844, #abb345, #a0ac47, #95a449, #8b9d4a, #82954b);
+}
+
+.ijo2 {
+  background-image: linear-gradient(to right top, #39aea9, #50b6a8, #64bda8, #77c5a8, #8acca9, #98d1aa, #a6d7ac, #b4dcaf, #c1e1b3, #cde6b7, #d9eabc, #e5efc1);
+}
+
+.intro p {
+  text-align: center;
+  font-family: "sac", "Times New Roman", Times, serif;
+  font-size: 120px;
+  font-weight: 500;
+}
+
+.intro .subtitle {
+  font-size: 18px;
+  font-family: "poppin", "Times New Roman", Times, serif;
+  margin-top: -70px;
+  text-align: center;
+}
+
+.demo .card {
+  background-color: transparent;
+  border-radius: 10px;
+  border: 3px solid black;
+  text-align: center;
+}
+
+.card i {
+  font-size: 60px;
+}
+
+.card .card-text {
+  font-family: "poppin", "Times New Roman", Times, serif;
+}
+
+.card:hover {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+a .card {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
